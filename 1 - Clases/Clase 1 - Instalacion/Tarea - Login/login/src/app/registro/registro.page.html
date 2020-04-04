@@ -1,9 +1,25 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>registro</ion-title>
+  <ion-toolbar color="purple">
+    <ion-title>Registro: </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-
+<ion-content padding>
+  <ion-item>
+    <ion-label>
+      Email:
+    </ion-label>
+    <ion-input type="text" [(ngModel)]="user.email"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>
+      Contraseña:
+    </ion-label>
+    <ion-input type="password" [(ngModel)]="user.password"></ion-input>
+  </ion-item>
+  <ion-otem-divider>
+    <ion-button size="large" (click)="onRegister()">Registrarse</ion-button>
+    <br>
+    ¿Ya posee una cuenta? <a href="/login">Ingrese</a>
+  </ion-otem-divider>
 </ion-content>

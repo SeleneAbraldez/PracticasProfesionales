@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from "@angular/router";
-import { AuthService } from "../service/auth.service";
-import { User } from "../shared/user.class";
+import { AuthService } from "src/app/service/auth.service";
+import { User } from "../../shared/user.class";
 
 @Component({
   selector: 'app-login',
@@ -16,9 +16,9 @@ export class LoginPage implements OnInit {
   ngOnInit() {
   }
 
-  async onLogin(){
+  async onLogin() {
     const user = await this.authSvc.onLogin(this.user);
-    if(user){
+    if (user) {
       console.log("Se ha ingresado correctamente!");
       this.router.navigateByUrl("/");
     }

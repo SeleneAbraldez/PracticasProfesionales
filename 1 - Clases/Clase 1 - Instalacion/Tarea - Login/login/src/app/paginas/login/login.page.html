@@ -1,6 +1,6 @@
 <ion-header>
   <ion-toolbar color="purple">
-    <ion-title>Registro: </ion-title>
+    <ion-title>Ingresar: </ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -17,9 +17,9 @@
     </ion-label>
     <ion-input type="password" [(ngModel)]="user.password"></ion-input>
   </ion-item>
-  <ion-otem-divider>
-    <ion-button size="large" (click)="onRegister()">Registrarse</ion-button>
+  <ion-item-divider>
+    <ion-button size="large" (click)="onLogin()">Ingresar</ion-button>
     <br>
-    ¿Ya posee una cuenta? <a href="/login">Ingrese</a>
-  </ion-otem-divider>
+    ¿Todavia no posee una cuenta? <a href="/registro">Registrese!</a>
+  </ion-item-divider>
 </ion-content>

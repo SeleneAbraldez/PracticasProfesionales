@@ -1,0 +1,8 @@
+{
+  "name": "alarmaMov",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "id": "c4383da1"
+}

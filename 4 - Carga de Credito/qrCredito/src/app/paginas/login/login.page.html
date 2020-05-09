@@ -1,0 +1,58 @@
+<ion-header>
+  <!-- <ion-toolbar color="dark">
+    <ion-title align="center"> Complete sus datos</ion-title>
+  </ion-toolbar> -->
+</ion-header>
+
+<ion-content padding class="bg-image">
+  <div class="centered" align="center">
+    <br>
+    <img src="../../../assets/img/qrgen.png" height="100px" style="border:5px solid blue">
+    <div class="datos">
+      <ion-item>
+        <br>
+        <br>
+        <br>
+        <ion-label>
+          Correo:
+        </ion-label>
+        <br>
+        <ion-input type="text" [(ngModel)]="usuarix.correo" placeholder="ejemplo@gmail.com"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>
+          Contraseña:
+        </ion-label>
+        <ion-input type="password" [(ngModel)]="usuarix.contrasenia" placeholder="*****"></ion-input>
+      </ion-item>
+      <br>
+      <ion-button size="large" (click)="onLogin()" color="tertiary">Ingresar</ion-button>
+      <br>
+      <br>
+      <div *ngIf="mensajeError" class="error">
+        {{mensajeError}}
+        <br>
+      </div>
+      <span class="divider line one-line">0</span>
+      <ion-label style="color: antiquewhite;">
+        ¿Ya se ha registrado antes? <br> ¡Seleccione su cuenta guardada debajo!
+      </ion-label>
+      <br>
+      <br>
+      <ion-item>
+        <ion-label>Cuentas guardadas</ion-label>
+        <!-- <ion-select [(ngModel)]="value" (ionChange)=“selecCuenta($event)> -->
+        <ion-select value="" #C [(ngModel)]="usuarix.correo" (ionChange)="selecCuenta(C.value)">
+          <ion-select-option [value]="admin">admin@admin.com</ion-select-option>
+          <ion-select-option [value]="invitado">invitado@invitado.com</ion-select-option>
+          <ion-select-option [value]="usuario">usuario@usuario.com</ion-select-option>
+          <ion-select-option [value]="anonimo">anonimo@anonimo.com</ion-select-option>
+          <ion-select-option [value]="tester">tester@tester.com</ion-select-option>
+        </ion-select>
+      </ion-item>
+      <ion-item *ngIf="spinner">
+        <ion-spinner name="circles" aling="center" color="primary"></ion-spinner>
+      </ion-item>
+    </div>
+  </div>
+</ion-content>

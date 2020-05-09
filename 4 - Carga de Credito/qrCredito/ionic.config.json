@@ -1,0 +1,7 @@
+{
+  "name": "qrCredito",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

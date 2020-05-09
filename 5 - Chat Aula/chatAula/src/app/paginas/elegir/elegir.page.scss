@@ -1,0 +1,70 @@
+#container1 {
+    text-align: center;
+    background-image:url("../../../assets/img/chatA.jpg");
+    background-size: cover;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(3, 0, 0);
+  
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30%;
+    transform: translateY(-50%);
+    height: 48%;
+  }
+  
+  #container1 strong {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  
+  #container1 p {
+    font-size: 16px;
+    line-height: 22px;
+  
+    color: #8c8c8c;
+  
+    // padding: 30px;
+  }
+  
+  #container1 a {
+    text-decoration: none;
+  }
+  
+  #container2 {
+    text-align: center;
+    background-image:url("../../../assets/img/chatB.jpg");
+    background-size: cover;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(3, 0, 0);
+    
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 77%;
+    transform: translateY(-50%);
+    height: 46%;
+  }
+  
+  #container2 strong {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  
+  #container2 p {
+    font-size: 16px;
+    line-height: 22px;
+  
+    color: #8c8c8c;
+  
+    margin: 30px;
+  }
+  
+  #container2 a {
+    text-decoration: none;
+  }
+  
+  .ion-content{
+    background-color: black;
+    overflow-y: hidden;
+  }

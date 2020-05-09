@@ -1,0 +1,47 @@
+<ion-header [translucent]="true">
+  <!-- <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar> -->
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <header>
+      <h1>{{cuenta}}</h1>
+    </header>
+    <section class="location">
+      <div class="city">
+        <h3>10<ion-icon *ngIf="diez" name="checkmark"></ion-icon>
+          <ion-icon *ngIf="diezAdmin" name="checkmark"></ion-icon>
+        </h3><br>
+        <h3>50<ion-icon *ngIf="cincuenta" name="checkmark"></ion-icon>
+          <ion-icon *ngIf="cincuentaAdmin" name="checkmark"></ion-icon>
+        </h3><br>
+        <h3>100<ion-icon *ngIf="cien" name="checkmark"></ion-icon>
+          <ion-icon *ngIf="cienAdmin" name="checkmark"></ion-icon>
+        </h3><br>
+      </div>
+
+      <div class="city">
+        <h2>${{saldo}}</h2>
+        <h3>Crédito actual</h3>
+      </div>
+    </section>
+
+    <section class="information">
+      <div class="passenger">
+        <h4>{{mensaje}}</h4><br>
+
+        <!-- //class="button-disabled" -->
+        <ion-button expand="block" (click)="escanearQR()">Escanear su código QR</ion-button><br>
+        <ion-button color="secondary" expand="block" (click)="limpiarCreditos()">Limpiar créditos</ion-button><br>
+        <ion-button color="medium" expand="block" (click)="cerrarSesion()">Cerrar sesión</ion-button><br>
+
+      </div>
+
+      <img src="https://howto.wired.com/mediawiki/images/Barcode_example1.png" alt="" />
+    </section>
+  </div>
+</ion-content>

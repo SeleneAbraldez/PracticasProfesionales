@@ -1,0 +1,7 @@
+{
+  "name": "casasGaleria",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

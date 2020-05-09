@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title style="color: rgb(214, 178, 243);">
+      <a href="javascript:void(0)" (click)="paginaAnterior()"><- </a>
+      PPPS-4B</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="fondo">
+    <ion-grid>
+      <ion-row *ngFor="let mensaje of mensajes">
+
+        <ion-col size="7" *ngIf="usuarixAct !== mensaje.usuarix" class="mensaje otrxs">
+          <b style="color: rgb(214, 178, 243);">{{mensaje.usuarix}}</b>
+          <br>
+          {{mensaje.msg}}
+          <div class="tiempo">{{mensaje.fecha}} </div>
+        </ion-col>
+
+        <ion-col offset="5" size="7" *ngIf="usuarixAct === mensaje.usuarix" class="mensaje mio">
+          {{mensaje.msg}}
+          <div class="tiempo" style="color: grey;">{{mensaje.fecha}}</div>
+        </ion-col>
+
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-row align-items-center no-padding>
+      <ion-col size="10">
+        <textarea autosize maxRows="3" [(ngModel)]="nuevoMsg" class="mensajeInput">
+
+          </textarea>
+      </ion-col>
+      <ion-col size="2">
+        <ion-button expand="block" fill="clear" [disabled]="nuevoMsg === ''" class="msg-btn" (click)="mandarMensaje()">
+          <ion-icon name="send"></ion-icon>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-toolbar>
+</ion-footer>

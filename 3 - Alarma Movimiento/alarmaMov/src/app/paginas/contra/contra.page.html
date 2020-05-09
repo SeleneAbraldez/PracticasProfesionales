@@ -1,0 +1,15 @@
+<ion-header>
+</ion-header>
+
+<ion-content>
+  <div class="fondo">
+  <div class="login">
+    <h1>INGRESAR CONTRASEÑA</h1>
+      <form method="post">
+          <input type="password" name="p" placeholder="Contraseña numerica" required="required" [(ngModel)]="contrasenia"/>
+          <div class="error" *ngIf="mensajeError">{{mensajeError}}</div>
+          <button type="submit" class="btn btn-primary btn-block btn-large" (click)="apagarAlarma()">Apagar alarma</button>
+      </form>
+  </div>
+</div>
+</ion-content>

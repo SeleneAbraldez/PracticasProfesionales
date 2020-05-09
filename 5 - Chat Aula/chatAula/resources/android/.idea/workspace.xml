@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3f528d53-4ad3-4cad-8059-da1ab2e49e1e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/app-debug.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/ionic.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/android/icon/drawable-hdpi-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/android/icon/drawable-ldpi-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/android/icon/drawable-mdpi-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/android/icon/drawable-xhdpi-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/android/icon/drawable-xxhdpi-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/android/icon/drawable-xxxhdpi-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/android/splash/drawable-land-hdpi-screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/android/splash/drawable-land-ldpi-screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/android/splash/drawable-land-mdpi-screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/android/splash/drawable-land-xhdpi-screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/android/splash/drawable-land-xxhdpi-screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/android/splash/drawable-land-xxxhdpi-screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/android/splash/drawable-port-hdpi-screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/android/splash/drawable-port-ldpi-screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/android/splash/drawable-port-mdpi-screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/android/splash/drawable-port-xhdpi-screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/android/splash/drawable-port-xxhdpi-screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/android/splash/drawable-port-xxxhdpi-screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/android/xml/network_security_config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/icon/icon-1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/icon/icon-20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/icon/icon-20@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/icon/icon-20@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/icon/icon-24@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/icon/icon-27.5@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/icon/icon-29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/icon/icon-29@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/icon/icon-29@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/icon/icon-40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/icon/icon-40@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/icon/icon-40@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/icon/icon-44@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/icon/icon-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/icon/icon-50@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/icon/icon-60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/icon/icon-60@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/icon/icon-60@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/icon/icon-72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/icon/icon-72@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/icon/icon-76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/icon/icon-76@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/icon/icon-83.5@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/icon/icon-86@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/icon/icon-98@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/icon/icon-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/icon/icon-small@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/icon/icon-small@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/icon/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/icon/icon@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/splash/Default-2436h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/splash/Default-568h@2x~iphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/splash/Default-667h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/splash/Default-736h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/splash/Default-Landscape-2436h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/splash/Default-Landscape-736h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/splash/Default-Landscape@2x~ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/splash/Default-Landscape@~ipadpro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/splash/Default-Landscape~ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/splash/Default-Portrait@2x~ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/splash/Default-Portrait@~ipadpro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/splash/Default-Portrait~ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/splash/Default@2x~iphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/splash/Default@2x~universal~anyany.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/ios/splash/Default~iphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/resources/splash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/app/app.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/app/guards/auth.guard.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/app/guards/auth.guard.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/app/home/home.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/app/home/home.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/app/home/home.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/app/home/home.page.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/app/home/home.page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/app/paginas/login/login-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/app/paginas/login/login.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/app/paginas/login/login.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/app/paginas/login/login.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/app/paginas/login/login.page.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/app/paginas/login/login.page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/app/paginas/registro/registro-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/app/paginas/registro/registro.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/app/paginas/registro/registro.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/app/paginas/registro/registro.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/app/paginas/registro/registro.page.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/app/paginas/registro/registro.page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/app/service/auth.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/app/service/auth.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/app/shared/user.class.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/assets/icon/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/assets/shapes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/theme/variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/src/zone-flags.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/Tarea - Login/login/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/ionic.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/app.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/explore-container/explore-container.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/explore-container/explore-container.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/explore-container/explore-container.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/explore-container/explore-container.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/explore-container/explore-container.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/tab1/tab1.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/tab1/tab1.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/tab1/tab1.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/tab1/tab1.page.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/tab1/tab1.page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/tab2/tab2.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/tab2/tab2.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/tab2/tab2.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/tab2/tab2.page.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/tab2/tab2.page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/tab3/tab3.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/tab3/tab3.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/tab3/tab3.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/tab3/tab3.page.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/tab3/tab3.page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/tabs/tabs-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/tabs/tabs.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/tabs/tabs.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/tabs/tabs.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/tabs/tabs.page.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/app/tabs/tabs.page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/assets/icon/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/assets/shapes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/theme/variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/src/zone-flags.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1 - Clases/Clase 1 - Instalacion/clase1/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2 - TPs/2020_1_Cuatri- Enunciados de los TP’s.pdf" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="604" />
+    <option name="y" value="43" />
+    <option name="width" value="694" />
+    <option name="height" value="742" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../3 - Alarma Movimiento/alarmaMov/platforms/android" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f528d53-4ad3-4cad-8059-da1ab2e49e1e" name="Default Changelist" comment="" />
+      <created>1588361427819</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588361427819</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1376" height="754" extended-state="6" />
+    <layout>
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.32884902" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Resources Explorer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+    </layout>
+  </component>
+</project>

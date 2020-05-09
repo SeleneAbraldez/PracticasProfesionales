@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+  <!-- <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar> -->
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="ladron" *ngIf="apagado">
+    <img src="../../assets/img/ladronapagado.png" alt="" (click)="start()">
+  </div>
+  <div class="ladron" *ngIf="apagado==false">
+    <img src="../../assets/img/ladron.png" alt="" (click)="stop()">
+  </div>
+
+
+  <!-- <ion-card>
+    <ion-card-content>
+      <h2>X: {{accelerationX}}</h2>
+      <h2>Y: {{accelerationY}}</h2>
+      <h2>Z: {{accelerationZ}}</h2>
+    </ion-card-content>
+  </ion-card> -->
+</ion-content>

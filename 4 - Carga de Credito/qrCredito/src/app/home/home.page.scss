@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+body {
+  background: #f6aba6;
+  font-family: 'Varela Round';
+  text-transform: uppercase;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  // width: 100%;
+  height: 60%;
+  margin: 5% auto;
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    border-radius: 5px 5px 0 0;
+    background: #4a4448;
+    color: #a19e9e;
+    font-size: 9px;
+    letter-spacing: .5px;
+  }
+  
+  .location {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+    background: #82a7e0;
+    color: #fff;
+    
+    h2 {
+      font-size: 60px;
+      font-weight: bold;
+    }
+    
+    h3 {
+      font-size: 20px;
+      letter-spacing: .5px;
+    }
+  }
+  
+  .information {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    border-radius: 0 0 5px 5px;
+    background: #fff;
+    
+    .passenger {
+      width: 100%;
+    }
+    
+    .passenger, 
+    .flight, 
+    .seat, 
+    .gate {
+      padding: 25px 15px 0;
+      
+      h4 {
+        color: rgb(149, 183, 228);
+        font-size: 15px;
+        letter-spacing: .5px;
+        padding-bottom: 2px;
+      }
+      
+      h5 {
+        font-size: 25px;
+        letter-spacing: 1px;
+      }
+    }
+    
+    .seat {
+      h5 {
+        margin-left: -2px;
+        letter-spacing: -.5px;
+      }
+    }
+    
+    // img {
+    //   width: 90%;
+    //   height: 50px;
+    //   padding: 20px 0;
+    //   margin: 0 8px;
+    // }
+  }
+}
+
+
+
+

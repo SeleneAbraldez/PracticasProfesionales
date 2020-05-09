@@ -1,0 +1,173 @@
+// body {
+// 	width: 100%;
+// 	height: 100vh;
+// 	display: flex;
+// 	justify-content: center;
+// 	align-items: center;
+// }
+
+// #circulo {	
+// 	animation: circulo 2s linear;
+// 	animation-fill-mode: forwards;
+// }
+
+// #celular {
+// 	opacity: 0;
+// 	animation: celular 1s 2s cubic-bezier(0,1.09,.79,1.54);
+// 	animation-fill-mode: forwards;
+// }
+
+// #chat-boy {
+// 	opacity: 0;
+// 	animation: chat-boy 3s 3s ease-in-out infinite;
+// 	animation-fill-mode: forwards;
+// }
+
+// #chat-girl {
+// 	opacity: 0;
+// 	animation: chat-girl 3s 4.8s ease-in-out infinite;
+// 	animation-fill-mode: forwards;
+// }
+
+// @keyframes circulo {
+// 	0% {opacity: 0;}
+// 	100% {opacity: 100%;}
+// }
+
+// @keyframes celular {
+// 	0% {transform: translateX(30px);}
+// 	100% {opacity: 1; transform: translateX(0);}
+// }
+
+// @keyframes chat-boy {
+// 	0% {transform: translateY(50px);}
+// 	30% {opacity: 1; transform: translateY(0);}
+// 	50% {opacity: 1; transform: translateY(0);}
+// 	75% {opacity: 1; transform: translateY(-150px);}
+// 	90% {opacity: 1; transform: translateY(-150px);}
+// 	100% {opacity: 0; transform: translateY(-300px);}
+// }
+
+// @keyframes chat-girl {
+// 	0% {transform: translateY(50px);}
+// 	30% {opacity: 1; transform: translateY(0);}
+// 	40% {opacity: 1; transform: translateY(0);}
+// 	50% {opacity: 1; transform: translateY(-150px);}
+// 	90% {opacity: 1; transform: translateY(-150px);}
+// 	100% {opacity: 0; transform: translateY(-300px);}
+// }
+
+// /* Colores */
+// .st0{fill:#FEE888;}
+// 	.st1{fill:#4A5F99;}
+// 	.st2{fill:#3A5389;}
+// 	.st3{fill:#6680BC;}
+// 	.st4{fill:#82CFFF;}
+// 	.st5{fill:#67BDF9;}
+// 	.st6{fill:#D9D9DD;}
+// 	.st7{fill:#FFFFFF;}
+// 	.st8{clip-path:url(#XMLID_4_);}
+// 	.st9{fill:#734A3E;}
+// 	.st10{clip-path:url(#SVGID_2_);fill:#623F33;}
+// 	.st11{clip-path:url(#SVGID_2_);fill:#F6B47B;}
+// 	.st12{fill:#FF4F4F;}
+// 	.st13{fill:#623F33;}
+// 	.st14{fill:#E2A071;}
+// 	.st15{fill:#FDC88E;}
+// 	.st16{clip-path:url(#SVGID_4_);fill:#F23F44;}
+// 	.st17{clip-path:url(#SVGID_4_);fill:#D6343A;}
+// 	.st18{fill:#F23F44;}
+// 	.st19{fill:#F6B47B;}
+// 	.st20{fill:#FD5A6A;}
+// 	.st21{fill:#FC91A7;}
+// 	.st22{clip-path:url(#XMLID_5_);}
+// 	.st23{clip-path:url(#SVGID_6_);fill:#E69F5F;}
+// 	.st24{fill:#E09156;}
+// 	.st25{fill:#FFD7A3;}
+// 	.st26{fill:#FFE1B2;}
+// 	.st27{fill:#E4B07B;}
+// 	.st28{fill:#FF6473;}
+// 	.st29{fill:#F05467;}
+// 	.st30{fill:#D4445A;}
+// 	.st31{fill:#E69F5F;}
+
+
+    #custom-overlay{
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 99999;
+        width: 100%;
+        background-color: rgb(67, 43, 84);
+      }
+
+      .burbujas{
+        // width: 200px;
+        // height: 300px;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+      }
+      
+      .burbujas .img1{
+        width: 300px;
+        // height: 200px;
+      }
+      
+      .burbujas .img1{
+        animation: rebote-in 2s infinite;
+        transform-origin: top center;
+      }
+        @keyframes rebote-in{
+          0%{
+            transform: scale(0);
+            opacity: 0;
+          }
+          50%{ 
+            transform: scale(0.3);
+            opacity: 0;
+          }
+          90%{
+            transform: scale(1.1);
+            opacity: 1;
+          }  
+          100%{
+            transform: scale(0.5);
+            opacity: 0;
+          }  
+        }
+      
+        .nombre{
+          // width: 200px;
+          // height: 300px;
+          position: absolute;
+          top: 60%;
+          left: 0%;
+        }
+      
+        
+        .nombre .img2{
+          animation: rebote-out 2s infinite;
+          transform-origin: top center;
+        }
+        @keyframes rebote-out{
+        0%{
+        transform: scale(0);
+        opacity: 0;
+        }
+        50%{  
+            transform: scale(1.1);
+        opacity: 1;
+        
+        }
+        90%{
+       transform: scale(0.3);
+        opacity: 0;
+        }  
+        100%{
+        transform: scale(0);
+        opacity: 0;
+        }  
+        }

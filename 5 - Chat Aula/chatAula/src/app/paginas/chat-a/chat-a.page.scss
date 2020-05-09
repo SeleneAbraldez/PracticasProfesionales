@@ -1,0 +1,39 @@
+.mensaje{
+    padding:  10px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+    white-space: pre-wrap;
+}
+
+.otrxs{
+    background: rgb(6, 63, 6);
+    color: white;
+}
+
+.mio{
+    background: rgb(219, 230, 215);
+    color: rgb(42, 54, 16);
+}
+
+.tiempo{
+    color: wheat;
+    align-content: right;
+    text-align: right;
+    font-size: small;
+}
+
+.mensajeInput{
+    color: rgb(75, 75, 75);
+    width: 100%;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.msg-btn{
+    color: yellowgreen;
+}
+
+ion-content{
+    --background: #fff url('../../../assets/img/fondoa.jpg') no-repeat center center / cover;
+}

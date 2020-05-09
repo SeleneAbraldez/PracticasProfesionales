@@ -1,0 +1,76 @@
+.centered {
+    background: rgb(0, 0, 0);
+    // margin: 25px;
+    // position: absolute;
+    top: 100%;
+    transform: translateY(15%);
+    margin-right: 2px;
+    margin-left: 2px;
+  }
+
+  .datos{
+      padding-right: 15px;
+      padding-left: 15px;
+  }
+
+  ion-content {
+    background-color: coral;
+  }
+
+  .divider {
+    display: flex;
+    
+    &:before,
+    &:after {
+      content: "";
+      flex: 1;
+    }
+}
+
+ion-content{
+    // --background: #fff url('../../../assets/img/login.jpg') no-repeat center center / cover;
+    --background:rgb(66, 91, 196);
+}
+
+  
+.line {
+    align-items: center;
+    margin: 1em -1em;
+    color: #ffffff;
+    
+    &:before,
+    &:after {
+      height: 1px;
+      margin: 0 1em;
+    }
+} 
+
+.one-line {
+    &:before,
+    &:after {
+       background: #cccccc;
+    }
+}
+
+// .auth-form ion-grid,
+// .auth-form ion-row {
+//     height: 100%;
+//     justify-content: center;
+// }
+
+// .already {
+//     display: block;
+//     text-align: center;
+//     padding-bottom: 10px;
+// }
+
+ion-spinner {
+  width: 40px !important;
+  height: 40px !important;
+  display: block;
+  margin: auto;
+}
+
+.error{
+  color: red;
+}

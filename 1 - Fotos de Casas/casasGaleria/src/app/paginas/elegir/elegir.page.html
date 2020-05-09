@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-title align="center"> Seleccione tipo de casa:</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container1">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div (click)="redirectear('/casas-lindas')" style="background-color: rgba(0, 0, 0, 0.568); border-radius: 100px;">
+      <strong style="color: rgb(255, 255, 255);">Casas <br> LINDAS</strong>
+    </div>
+  </div>
+  <div id="container2">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div (click)="redirectear('/casas-feas')" style="background-color: rgba(0, 0, 0, 0.527); border-radius: 100px;">
+      <strong style="color: rgb(255, 255, 255);">Casas <br> FEAS</strong>
+    </div>
+  </div>
+  <img src="{{imgUrl}}" height="300">
+</ion-content>

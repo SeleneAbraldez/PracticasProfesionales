@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Galeria casas lindas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="fondo"> 
+  <ion-button size="small" (click)="sacarFoto('linda')" color="secondary">¡Sacar foto!</ion-button>
+  <ion-button size="small" (click)="mostrarGaleria()" color="secondary">Mostrar galeria</ion-button>
+  <ion-grid *ngIf="mostrarGrid == true">
+    <ion-row>
+      <div *ngIf="spinner" class="spinner">
+        <ion-spinner name="bubbles"></ion-spinner>
+      </div>
+      <ion-col size="4"  *ngFor="let foto of fotos">
+        <img src="{{foto.link}}" (click)="mostrarImagen(foto)">
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <div *ngIf="mostrarUnicaImagen == true" class="unica">
+    <ion-icon name="close-circle" class="cerrar" (click)="cerrarImagen()"></ion-icon>
+    <br>
+    <img [src]="linkFoto">
+    <!-- <div *ngIf="foto.cantVot"> -->
+    {{cantVotos}}
+    <!-- </div> -->
+    <ion-icon name="thumbs-up" class="arriba" (click)="votar(linkFoto)"></ion-icon>
+    <br>
+    {{errorMensaje}}
+  </div>
+</div>
+</ion-content>

@@ -1,0 +1,63 @@
+
+.hamburgerMenu{
+    font-size: 250%;
+    color: black;
+    background-color: transparent;
+    border: none;
+}
+img{
+    max-height:15em;
+    max-width: 15em;
+    min-height:15em ;
+    min-width: 15em;
+    border-radius: 100%;
+}
+ion-button{
+    text-transform: none;
+    p{
+        float: left;
+    }
+    img{
+        margin-left: 5px;
+        float: right;
+    }
+}
+ion-header{
+    
+    --background:#fff1de;
+}
+ion-select{
+    min-width: 100%;
+    text-align: center;
+}
+.btnPropio{
+    font-size: 140%;
+    min-width: 100%;
+    --background:#7e6954; 
+    img{
+        max-height:30px ;
+        max-width: 30px;
+        min-height:30px ;
+        border-radius: 0%;
+        min-width: 30px;
+    }
+}
+
+#pedirCuenta{
+margin-left: 3px;
+max-height:40px;
+max-width: 30px;
+min-height:40px ;
+min-width: 30px;
+border-radius: 0%;
+}
+
+#pedirCuenta:active{
+    transform: scale(0.9);
+}
+
+ion-content{
+    --background: #fff url('https://images.assetsdelivery.com/compings_v2/nadiinko/nadiinko1704/nadiinko170400008.jpg');
+}
+
+// no-repeat center center / cover

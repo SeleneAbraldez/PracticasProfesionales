@@ -1,0 +1,126 @@
+body, ul, li {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#main:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#main header .wrapper nav h2 {
+  text-indent: -10000px;
+}
+
+#main header .wrapper nav ul {
+  list-style-type: none;
+}
+
+#main header .wrapper nav ul li {
+  display: inline-block;
+}
+
+#main header .wrapper nav {
+  text-align: center;
+}
+
+#main header .wrapper nav li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  transition: 0.4s;
+}
+
+#main header .wrapper nav li a:hover {
+  color: #555;
+  transition: 0.4s;
+}
+
+#main header .wrapper nav ul li:nth-child(2) {
+  margin: 0 30px;
+}
+
+#main header .wrapper i {
+  float: right;
+  color: white;
+  margin-top: -15px;
+  margin-right: 20px;
+}
+#btnIngreso{
+  max-width: 2em;
+  margin: 0.2em;
+  float: right;
+}
+#btnIngreso:active{
+ transform: scale(0.9);
+}
+#main {
+   background: url(https://cdn.pixabay.com/photo/2017/01/31/09/30/raspberry-2023404_960_720.jpg) no-repeat center center;
+  background-size: cover;
+  margin-top: -30px;
+}
+
+.caption {
+  text-align: center;
+  color: white;
+  padding-top: 30px;
+  text-shadow: 3px 3px 3px black; 
+  padding-bottom: 20%;
+}
+
+.caption h1 {
+  font-size: 60px;
+  font-family: "Playfair Display", serif;
+  font-weight: lighter;
+}
+
+.caption p {
+  font-size: 16px;
+  line-height: 1.6em;
+  margin-bottom: 30px;
+}
+
+
+p {
+  text-align: right;
+}
+
+.navar{
+  background-color: black;
+  padding-bottom: 30px;
+  padding-right: 15px;
+
+}
+
+.logo{
+  // margin-top: 10%;
+  height: 50%;
+  background-color:rgb(0, 0, 0);
+}
+
+.calesita{
+  background-color: rgb(24, 24, 24);
+  // margin-top: 10%;
+  height: 50%;
+}
+
+.pantalla{
+  height: 100%;
+}
+
+.imgLogo{
+  background-color:black; 
+  border-radius: 50px; 
+  height: 70%;
+  margin-left: 20%;
+}

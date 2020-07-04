@@ -1,0 +1,51 @@
+<!-- <ion-header>
+    <div class="topnav">
+        <img [routerLink]="['/login']" id="btnIngreso" src="../../../assets/images/ingresar.png" alt="Ingresar">
+        <ion-button [routerLink]="['/alta-cliente']">Registrarse</ion-button> -->
+<!-- <ion-button  [routerLink]="['/admin']" >Admin area</ion-button> -->
+<!-- <ion-button [routerLink]="['/login']">Ingresar</ion-button>
+        <ion-button [routerLink]="['/principal']">principal</ion-button>
+        <ion-button [routerLink]="['/testeo']">TESTEO</ion-button>
+    </div>
+</ion-header> -->
+
+<ion-content>
+    <br>
+    <br>
+    <div class="pantalla" style="text-align: center; max-width: 100%;position:absolute;bottom:0; width:100%;">
+        <ion-card style="--background: rgb(145, 125, 100); --color: black; height: 42%;">
+            <br>
+            <div style="background-color: black; border-radius: 100%;">
+                <img src="../../../../assets/images/Logo-Comandita.png" alt="Logo laComandita" style="max-height: 65%;
+            max-width: 65%;">
+            </div>
+            <ion-card-content>
+                Bienvenido a la Comandita! Ingrese para deleitarse con nuestro sabrosos platos.
+            </ion-card-content>
+        </ion-card>
+        <div style="height: 10%;">
+            <ion-button expand="full" color="dark" [routerLink]="['/alta-cliente']">Registrarse</ion-button>
+            <ion-button expand="full" color="dark" [routerLink]="['/login']">Ingresar</ion-button>
+        </div>
+        <div class="calesita" style="height: 40%; min-height: fit-content; position:absolute; bottom:0; width:100%;">
+            <ion-slides pager="true" [options]="slideOpts">
+                <ion-slide>
+                    <img src="../../../assets/images/comidas/milanesa de ternera.png"><br>
+                </ion-slide>
+                <ion-slide>
+                    <img src="../../../assets/images/comidas/sushi.png"><br>
+                </ion-slide>
+                <ion-slide>
+                    <img src="../../../assets/images/comidas/pizza picante.png"><br>
+                </ion-slide>
+                <ion-slide>
+                    <img src="../../../assets/images/comidas/parrillada.png"><br>
+                </ion-slide>
+                <ion-slide>
+                    <img src="../../../assets/images/comidas/bife.png"><br>
+                </ion-slide>
+            </ion-slides>
+        </div>
+    </div>
+
+</ion-content>

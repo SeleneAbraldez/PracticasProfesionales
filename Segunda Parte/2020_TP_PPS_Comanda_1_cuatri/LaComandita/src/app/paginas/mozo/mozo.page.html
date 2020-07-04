@@ -1,0 +1,51 @@
+<ion-header >
+  <ion-toolbar class="centrado" >
+    <ion-title> <img src="https://image.flaticon.com/icons/png/512/10/10542.png" height="40px"> </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <!-- LEFT MENU -->
+  <p-sidebar [(visible)]="leftMenu" [modal]=false>
+    <h1 style="font-weight:normal">Acciones Mozo</h1>
+  
+  <ion-button expand="full" (click)="leftMenu = false" (click)="mostrarListaDeEspera()"><i class="pi pi-clock"></i> Lista de espera
+    </ion-button>
+    <ion-button expand="full" (click)="leftMenu = false" (click)="mostrarFormProductos=true"><i class="pi pi-plus"></i> Agregar producto
+    </ion-button>
+    <ion-button expand="full" (click)="leftMenu = false" (click)="mostrarListaDeConsultas()"><i class="pi pi-check"></i> Revisar consultas
+    </ion-button>
+    <ion-button expand="full" (click)="leftMenu = false" (click)="mostrarListaDepedidos=true"><i class="pi pi-user-edit"></i> Administrar pedidos
+    </ion-button>
+    <ion-button expand="full" (click)="leftMenu = false" color="success" (click)="mostrarListaDePedidosACobrar=true">
+      Cobrar a clientes </ion-button>
+
+  </p-sidebar>
+
+  <ion-icon id="hamburgerLeftMenu" class="hamburgerMenu" name="menu-outline" pButton type="button"
+    (click)="leftMenu = true" (click)="mostrarFormProductos=false" (click)="mostrarSalaDeEspera=false"
+    (click)="mostrarListadoDeConsultas=false" (click)="mostrarListaDepedidos=false"
+    (click)="mostrarListaDePedidosACobrar=false"></ion-icon>
+  <!-- FIN LEFT MENU -->
+
+
+  <app-sala-de-espera *ngIf="mostrarSalaDeEspera" [lista]="listaEnEspera" [spinner]="spinnerSalaDeEspera">
+  </app-sala-de-espera>
+
+  <!-- ALTA DE PRODUCTOS -->
+  <app-alta-productos *ngIf="mostrarFormProductos" (cerrarFormEvent)="mostrarFormProductos=false"></app-alta-productos>
+  <!-- FIN ALTA DE PRODUCTOS -->
+
+  <!-- LISTA DE CONSULTAS -->
+  <app-lista-de-consultas *ngIf="mostrarListadoDeConsultas" [lista]="listaDeconsultas"></app-lista-de-consultas>
+  <!-- FIN LISTA DE CONSULTAS -->
+
+  <!-- LISTA DE PEDIDOS -->
+  <app-lista-de-pedidos *ngIf="mostrarListaDepedidos"></app-lista-de-pedidos>
+  <!-- FIN LISTA DE PEDIDOS -->
+
+  <!-- LISTA DE PEDIDOS A COBRAR-->
+  <app-lista-de-pedidos-acobrar *ngIf="mostrarListaDePedidosACobrar"></app-lista-de-pedidos-acobrar>
+  <!-- FIN LISTA DE PEDIDOS  A COBRAR-->
+</ion-content>

@@ -1,0 +1,8 @@
+<p-accordion>
+  <p-accordionTab header="{{titulo}}">
+    <div id="divSeparador" *ngFor="let producto of pedido">
+      <p> Cantidad: {{producto.cantidad}}</p>
+      <p> Pedido: {{producto.producto.nombre}}</p>
+    </div>
+  </p-accordionTab>
+</p-accordion>

@@ -1,0 +1,24 @@
+<ion-content>
+  <div id="cardLogin">
+    <div class="contenedor">
+      <form class="centrado">
+        <img src="../../assets/images/login.png" alt="login" style="max-height: 40%; max-width: 40%;">
+        <ion-input type='email' placeholder="Ingrese su correo" [(ngModel)]="user.email" name="email" required>
+        </ion-input>
+        <ion-input type='password' placeholder="Ingrese su contraseña" [(ngModel)]="user.password" name="password"
+          required></ion-input>
+        <ion-button ion-button type="submit" expand="full" (click)="onLogin2()" block>Ingresar
+        </ion-button>
+      </form>
+
+      <br>
+
+      <ion-item class="select">
+        <ion-label>Cuentas guardadas</ion-label>
+        <ion-select value="" #C [(ngModel)]="user" (ionChange)="seleccionarUsuario(C.value)">
+          <ion-select-option [value]="user" *ngFor="let user of listaUsuarios">{{user.email}}</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </div>
+  </div>
+</ion-content>

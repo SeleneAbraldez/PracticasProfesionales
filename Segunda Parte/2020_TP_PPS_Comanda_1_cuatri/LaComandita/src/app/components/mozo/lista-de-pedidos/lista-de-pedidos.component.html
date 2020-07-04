@@ -1,0 +1,31 @@
+<div id="divCheckBox" class="centrado">
+  <ion-button (click)="cambiarImagenDeBoton()">{{btnEstados.label}}
+    <img class="imgIcon" src="{{btnEstados.imagen}}">
+  </ion-button>
+</div>
+<!-- continuar desde aca, ver como incorporar los pedidos listo para servir y el seguimiento del pedido a la vista del mozo -->
+<p-accordion>
+  <div *ngFor="let pedido of listaDePedidos">
+    <p-accordionTab *ngIf="(pedido.estado!='entregado' && pedido.estado==btnEstados.filtroSeleccionado)"
+      header="Codigo de Pedido: '{{pedido.codigoPedido | uppercase}}'">
+      <p> Cliente: {{pedido.cliente.nombre}}</p>
+      <!-- <p> Mesa: {{pedido.cliente.mesa.codigo}}</p> -->
+      <p> Facturacion: {{pedido.facturacion | precio}}</p>
+      <app-accordion-producto *ngIf="pedido.platos.length >=1" [pedido]="pedido.platos" [titulo]="'PLATOS'">
+      </app-accordion-producto>
+      <app-accordion-producto *ngIf="pedido.postres.length >=1" [pedido]="pedido.postres" [titulo]="'POSTRES'">
+      </app-accordion-producto>
+      <app-accordion-producto *ngIf="pedido.bebidas.length >=1" [pedido]="pedido.bebidas" [titulo]="'BEBIDAS'">
+      </app-accordion-producto>
+
+
+      <ion-button *ngIf="(pedido.estado=='enviado' || pedido.estado=='rechazado') " id="btnAceptar"
+        (click)="aceptarPedido(pedido)"><i class="pi pi-check"></i></ion-button>
+      <ion-button *ngIf="pedido.estado=='enviado'" id="btnRechazar" (click)="rechazarPedido(pedido)"><i
+          class="pi pi-trash"></i></ion-button>
+      <ion-button *ngIf="pedido.estado=='listo para servir'" id="btnRechazar" (click)="servirPedido(pedido)">
+        <img id="btnServir" class="imgIcon" src="../../../../assets/images/servir.png">
+      </ion-button>
+    </p-accordionTab>
+  </div>
+</p-accordion>

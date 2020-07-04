@@ -1,0 +1,33 @@
+<p-accordion>
+  <div *ngFor="let pedido of listaDePedidos" class="centrado">
+    <p-accordionTab *ngIf="pedido.estado=='pidiendo factura'"
+      header="Codigo de Pedido: '{{pedido.codigoPedido | uppercase}}'">
+      <p> Cliente: {{pedido.cliente.nombre}}</p>
+      <p> Mesa: {{pedido.cliente.mesa.codigo}}</p>
+      <p> Facturacion: {{pedido.facturacion | precio}}</p>
+      <p *ngIf="pedido.propina"> Propina: {{pedido.propina | precio}}🤑</p>
+      <p *ngIf="pedido.propina"> Facturacion total: {{pedido.facturacion+pedido.propina | precio}}</p>
+
+      <app-accordion-producto *ngIf="pedido.platos.length >=1" [pedido]="pedido.platos" [titulo]="'PLATOS'">
+      </app-accordion-producto>
+      <app-accordion-producto *ngIf="pedido.postres.length >=1" [pedido]="pedido.postres" [titulo]="'POSTRES'">
+      </app-accordion-producto>
+      <app-accordion-producto *ngIf="pedido.bebidas.length >=1" [pedido]="pedido.bebidas" [titulo]="'BEBIDAS'">
+      </app-accordion-producto>
+
+
+      <ion-button id="btnCobrar" (click)="cobrarPedido(pedido)" color="primary">¡Pedido Cobrado!</ion-button>
+    </p-accordionTab>
+  </div>
+</p-accordion>
+
+<p-dialog header="Cerrar Mesa" [(visible)]="mostrarDialogCerrarMesa" [modal]="true" [style]="{width: '90%'}"
+  [maximizable]="true" [baseZIndex]="10000" [draggable]="false" [resizable]="false">
+  <p><b>El pedido ya fue cobrado?.</b> </p>
+  <p>La mesa se cerrara y estara disponible para nuevos clientes</p>
+  <p-footer>
+    <ion-button color="primary" (click)="mostrarDialogCerrarMesa=false" (click)="cerrarMesa()">Sí
+    </ion-button>
+    <ion-button (click)="mostrarDialogCerrarMesa=false">No</ion-button>
+  </p-footer>
+</p-dialog>

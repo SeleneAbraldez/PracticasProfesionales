@@ -1,0 +1,7 @@
+{
+  "name": "pps2020arreglo",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,48 @@
+<form [formGroup]="todo">
+  <div class="centrado">
+
+    <div >
+      <img class="imgTomada" src="{{imagen.imagen}}" alt="{{imagen.imagen}}" *ngFor="let imagen of listaImagenes" >
+    </div>
+  </div>
+  <ion-item>
+    <ion-input type="text" [(ngModel)]="producto.nombre" formControlName="nombre" placeholder="Nombre"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input type="number" [(ngModel)]="producto.tiempo" formControlName="tiempo" placeholder="Tiempo de elaboración">
+    </ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input type="number" [(ngModel)]="producto.precio" formControlName="precio" placeholder="Precio">
+    </ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-select interface='action-sheet' [(ngModel)]="producto.tipo" formControlName="tipo"
+      placeholder="Tipo de producto:">
+      <ion-select-option value="platos">Plato</ion-select-option>
+      <ion-select-option value="postres">Postre</ion-select-option>
+      <ion-select-option value="bebidas">Bebida</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <div class="centrado">
+    <textarea pInputTextarea [(ngModel)]="producto.descripcion" formControlName="descripcion" placeholder="Descripción del producto"
+      autoResize="autoResize" rows="5"></textarea>
+  </div>
+  <div id="botones">
+    <ion-button id="btnCamera" (click)="tomarFotografia()" [disabled]='!todo.valid'>
+      <ion-icon name="camera"></ion-icon>
+    </ion-button>
+    <ion-button id="btnQR" (click)="scanCode()">
+      <img src="../../../../assets/images/qr.png" alt="imagen logo QR">
+    </ion-button>
+  </div>
+
+</form>
+
+<ion-button *ngIf="producto.tipo=='platos'" color="primary" expand="full" type="submit" [disabled]="!todo.valid  || contadorImg!=3"
+  (click)="agregarProducto('platos')"> Agregar plato</ion-button>
+<ion-button *ngIf="producto.tipo=='postres'" color="primary" expand="full" type="submit" [disabled]="!todo.valid  || contadorImg!=3"
+  (click)="agregarProducto('postres')"> Agregar postre</ion-button>
+<ion-button *ngIf="producto.tipo=='bebidas'" color="primary" expand="full" type="submit" [disabled]="!todo.valid  || contadorImg!=3"
+  (click)="agregarProducto('bebidas')"> Agregar bebida</ion-button>
+<ion-spinner *ngIf='showSpinner' id="spinner" name="bubbles"></ion-spinner>

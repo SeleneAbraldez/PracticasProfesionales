@@ -2,7 +2,7 @@
 
 ## Tecnicaturas en programación. UTN-FRA
 
-#### ⚠️ Clase de 1 a x en modalidad online devido al COVID-19. Clases pueden variar de las dadas en modalidad presencial. ⚠️
+#### ⚠️ Modalidad online devido al COVID-19. Clases pueden variar de las dadas en modalidad presencial. ⚠️
 
 #### Descripción:
 
